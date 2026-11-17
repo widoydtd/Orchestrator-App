@@ -6,7 +6,7 @@ dengan ikon sendiri di layar utama HP.
 ## Fitur
 - Membuka `https://cloud.uipath.com/` secara default (URL bisa diganti dari menu)
 - Login tersimpan (cookie disimpan, tidak perlu login ulang setiap buka)
-- Tarik ke bawah untuk refresh, tombol Back untuk kembali ke halaman sebelumnya
+- Tombol Back untuk kembali ke halaman sebelumnya
 - Mendukung unggah file (mis. paket .nupkg) dan unduh file (log, laporan) ke folder Download
 - Menu: Beranda · Muat ulang · Ubah URL Orchestrator · Buka di browser · Keluar & hapus sesi
 - Mendukung Orchestrator on-premise (harus HTTPS)
