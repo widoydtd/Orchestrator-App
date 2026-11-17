@@ -14,7 +14,20 @@ android {
         versionName '1.1'
     }
 
+    signingConfigs {
+        // Kunci tetap agar pembaruan APK bisa dipasang di atas versi sebelumnya
+        fixed {
+            storeFile file('orchestrator-debug.jks')
+            storePassword 'android'
+            keyAlias 'orchestrator'
+            keyPassword 'android'
+        }
+    }
+
     buildTypes {
+        debug {
+            signingConfig signingConfigs.fixed
+        }
         release {
             minifyEnabled false
         }
